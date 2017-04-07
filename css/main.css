@@ -31,7 +31,7 @@ ul.nav {
   width: 40px;
   position: absolute;
   top: 1.3em;
-  left: .5em;
+  right: .5em;
 }
 
 .nav-label img {
@@ -95,4 +95,21 @@ h2 {
   transition: background-color .35s, color .35s;
   cursor: pointer;
   background-color: #C91A00;
+}
+
+.about li {
+  list-style-type: none;
+}
+
+.about-cards {
+  width: 200px;
+  margin: 1em auto;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.about p {
+  font-family: helvetica;
 }
