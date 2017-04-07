@@ -140,3 +140,30 @@ p {
   padding: .5em 2em;
   background-color: #F7F4EF;
 }
+
+footer {
+  background-color: #0D3557;
+}
+
+.foot-logo {
+  width: 75px;
+  margin: 0 auto;
+}
+
+figcaption {
+  color: white;
+}
+
+.btm-nav ul {
+  list-style-type: none;
+}
+
+.btm-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+footer p {
+  color: white;
+  font-family: "Oswald";
+}
