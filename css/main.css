@@ -97,8 +97,8 @@ h2 {
   background-color: #C91A00;
 }
 
-.about li {
-  list-style-type: none;
+h3 {
+  font-weight: 500;
 }
 
 .about-cards {
@@ -106,10 +106,18 @@ h2 {
   margin: 1em auto;
 }
 
-h3 {
+h4 {
   font-weight: 400;
 }
 
-.about p {
+p {
   font-family: helvetica;
+}
+
+.learn-it {
+  background-color: #F7F4EF;
+}
+
+.learn-it h2 {
+  color: #0D3557;
 }
