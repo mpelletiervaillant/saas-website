@@ -1,5 +1,5 @@
 header {
-  background-color: #82BFB6;
+  background-color: #ED5943;
   text-align: center;
 }
 
@@ -53,6 +53,7 @@ nav a {
 nav li {
     border-top: 1px solid white;
     padding: .3em;
+    background-color: black;
 }
 
 .nav a:hover {
@@ -65,20 +66,33 @@ nav li:hover {
   background-color: #609A91;
 }
 
+.banner {
+  background-color: #ED5943;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  color: #fff;
+}
+
+h2 {
+  font-weight: 400;
+  color: #fff;
+}
+
 .banner-btn {
-  bottom: 15%;
-  left: 50%;
-  transform: translateX(-50%);
   color: white;
   text-decoration: none;
-  font-family: 'Fjalla One', sans-serif;
   border: 2px solid white;
-  border-radius: 3px;
-  padding: .5em 1em;
+  border-radius: 40px;
+  padding: .5em .8em;
+  background-color: #ED5943;
 }
 
 .banner-btn:hover {
   transition: background-color .35s, color .35s;
   cursor: pointer;
-  background-color: #82BFB6;
+  background-color: #C91A00;
 }
