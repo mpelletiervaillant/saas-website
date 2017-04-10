@@ -213,6 +213,18 @@ footer p {
   background-color: #083557;
 }
 
+.prod-h1 {
+  bottom: 63%;
+}
+
+.interface {
+  background-color: #F7F4EF;
+}
+
+.compatibility {
+  background-color: #78BBC0;
+}
+
 @media only screen and (min-width: 29em) {
 
   .banner-small {
@@ -222,6 +234,7 @@ footer p {
   .banner-medium {
     display: block;
   }
+
 
 @media only screen and (min-width: 38em) {
 
