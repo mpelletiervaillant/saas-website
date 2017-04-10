@@ -1,5 +1,6 @@
-header {
+.header-home {
   text-align: center;
+    background-color: #ED5943;
 }
 
 img.logo {
@@ -51,17 +52,16 @@ nav a {
 nav li {
     border-top: 1px solid white;
     padding: .3em;
-    background-color: black;
-}
-
-.nav a:hover {
-  color: #609A91;
-  transition: color .35s;
 }
 
 nav li:hover {
   cursor: pointer;
-  background-color: #609A91;
+  background-color: white;
+  transition: color .35s;
+}
+
+nav li:hover a {
+  color: #083557;
 }
 
 .banner-medium {
@@ -209,8 +209,8 @@ footer p {
 
 /* Product */
 
-header {
-  background-color: #ED5943;
+.header-products {
+  background-color: #083557;
 }
 
 @media only screen and (min-width: 29em) {
