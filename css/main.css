@@ -1,5 +1,4 @@
 header {
-  background-color: #ED5943;
   text-align: center;
 }
 
@@ -66,22 +65,33 @@ nav li:hover {
 }
 
 .banner {
-  background-color: #ED5943;
+  position:
 }
 
 h1 {
+  bottom: 60%;
+  left: 50%;
+  transform: translateX(-50%);
   font-weight: 500;
   font-size: 2.5rem;
   line-height: 1.1;
   color: #fff;
+  width: 85%;
 }
 
 h2 {
-  font-weight: 400;
+  font-weight: normal;
   color: #fff;
+  bottom: 32%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
 }
 
 .banner-btn {
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
   color: white;
   text-decoration: none;
   border: 2px solid white;
@@ -121,7 +131,7 @@ h4 {
 }
 
 p {
-  font-family: helvetica;
+  font-family: 'Roboto', sans-serif;
 }
 
 .learn-it {
@@ -171,5 +181,24 @@ footer p {
 /* Product */
 
 header {
-  background-color: #0D3557;
+  background-color: #ED5943;
 }
+
+@media only screen and (min-width: 38em) {
+
+  nav {
+    text-align: left;
+  }
+  ul.nav {
+    display: inline-block;
+  }
+
+  .nav-label img {
+    display: none;
+  }
+
+  nav li {
+    display: inline-block;
+    border: 0px;
+    padding: 0 .5em;
+  }
