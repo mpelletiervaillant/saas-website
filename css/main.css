@@ -225,6 +225,29 @@ footer p {
   background-color: #78BBC0;
 }
 
+.icons {
+  background-color: #F3A11E;
+}
+
+.cards {
+  padding: 0;
+}
+
+.feat-icon {
+  max-width: 100px;
+  display: inline-block;
+  float: left;
+}
+
+.cards li {
+  list-style-type: none;
+  border: 2px solid #F7F4EF;
+  border-radius: 5px;
+  max-width: 300px;
+  margin: .5em auto;
+  background-color:#F7F4EF;
+}
+
 @media only screen and (min-width: 29em) {
 
   .banner-small {
