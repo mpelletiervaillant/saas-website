@@ -64,8 +64,8 @@ nav li:hover {
   background-color: #609A91;
 }
 
-.banner {
-  position:
+.banner-medium {
+  display: none;
 }
 
 h1 {
@@ -213,7 +213,18 @@ header {
   background-color: #ED5943;
 }
 
+@media only screen and (min-width: 29em) {
+
+  .banner-small {
+    display: none;
+  }
+
+  .banner-medium {
+    display: block;
+  }
+
 @media only screen and (min-width: 38em) {
+
 
   nav {
     text-align: left;
@@ -231,3 +242,4 @@ header {
     border: 0px;
     padding: 0 .5em;
   }
+}
