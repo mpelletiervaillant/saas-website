@@ -151,6 +151,35 @@ p {
   background-color: #F7F4EF;
 }
 
+.sign-up {
+  background-color: #78BBC0;
+}
+
+.white {
+  color: white;
+}
+
+.figcaption-title {
+  bottom: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Oswald', sans-serif;
+}
+
+.figcaption-text {
+  bottom: 20%;
+  font-family: 'Roboto', sans-serif;
+  width: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+input {
+  width: 75%;
+  margin: 0 auto;
+  padding: 1em .5em;
+}
+
 footer {
   background-color: #0D3557;
 }
