@@ -159,6 +159,10 @@ p {
   color: white;
 }
 
+.blue {
+  color: #0D3557;
+}
+
 .figcaption-title {
   bottom: 40%;
   left: 50%;
@@ -174,10 +178,26 @@ p {
   transform: translateX(-50%);
 }
 
+.form {
+  text-align: center;
+  vertical-align: middle;
+}
+
 input {
   width: 75%;
   margin: 0 auto;
   padding: 1em .5em;
+  display: inline-block;
+}
+
+.go {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.go-btn {
+  padding: .3em .3em;
+  display: inline-block;
 }
 
 footer {
