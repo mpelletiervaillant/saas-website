@@ -330,7 +330,11 @@ footer p {
   .sign-up-btn:hover {
     background-color: #C94F3D;
     border-color: #C94F3D;
-  }  
+  }
+
+  .learn-it {
+    padding: 3.5em 1.5em;
+  }
 
   h3 {
     text-align: left;
