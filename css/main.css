@@ -213,18 +213,21 @@ figcaption {
   color: white;
 }
 
-.btm-nav ul {
-  list-style-type: none;
-}
-
-.btm-nav a {
-  color: white;
-  text-decoration: none;
-}
-
 footer p {
   color: white;
   font-family: "Oswald";
+}
+
+.social-media li {
+  display: inline-block;
+}
+
+.social {
+  text-align: center;
+}
+
+.sm-icon {
+  width: 40px;
 }
 
 /* Product */
