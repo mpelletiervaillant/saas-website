@@ -288,6 +288,20 @@ footer p {
   background-color: #F7F4EF;
 }
 
+/*learn*/
+
+.learn-intro {
+  background-color: #ED5943;
+}
+
+.learn-intro-two {
+  background-color: #F3A11E;
+}
+
+.workshops {
+  background-color: #78BBC0;
+}
+
 @media only screen and (min-width: 29em) {
 
   .banner-small {
