@@ -302,6 +302,16 @@ footer p {
   background-color: #78BBC0;
 }
 
+/*sign-up*/
+
+input,
+select,
+textarea,
+option {
+  width: 100%;
+  border: 1px solid #95989A;
+}
+
 @media only screen and (min-width: 29em) {
 
   .banner-small {
