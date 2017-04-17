@@ -1,11 +1,11 @@
 .header-home {
   text-align: center;
-    background-color: #ED5943;
+  background-color: #ED5943;
 }
 
 img.logo {
-  width: 100px;
-  margin: .5em auto;
+  width: 70px;
+  float: left;
 }
 
 img.logo:hover {
@@ -72,24 +72,28 @@ nav li:hover a {
   display: none;
 }
 
-h1 {
-  bottom: 60%;
+.banner-large {
+  display: none;
+}
+
+.banner-text {
+  bottom: 30%;
   left: 50%;
   transform: translateX(-50%);
   font-weight: 500;
-  font-size: 2.5rem;
   line-height: 1.1;
   color: #fff;
   width: 85%;
 }
 
+.banner-h1 {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
 h2 {
   font-weight: normal;
   color: #fff;
-  bottom: 32%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%;
 }
 
 .banner-btn {
@@ -182,27 +186,6 @@ p {
   transform: translateX(-50%);
 }
 
-.form {
-  text-align: center;
-  vertical-align: middle;
-}
-
-input {
-  width: 75%;
-  margin: 0 auto;
-  padding: 1em .5em;
-  display: inline-block;
-}
-
-.go {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.go-btn {
-  padding: .3em .3em;
-  display: inline-block;
-}
 
 footer {
   background-color: #0D3557;
@@ -234,10 +217,17 @@ footer p {
   width: 40px;
 }
 
+.map {
+}
+
+.copyright {
+  background-color: #ED5943;
+}
+
 /* Product */
 
-.header-products {
-  background-color: #083557;
+.header-product {
+  background-color: #0D3557;
 }
 
 .prod-h1 {
@@ -290,6 +280,10 @@ footer p {
 
 /*learn*/
 
+.header-learn {
+  background-color: #F3A11E;
+}
+
 .learn-intro {
   background-color: #ED5943;
 }
@@ -312,7 +306,7 @@ option {
   border: 1px solid #95989A;
 }
 
-@media only screen and (min-width: 29em) {
+@media only screen and (min-width: 27em) {
 
   .banner-small {
     display: none;
@@ -358,15 +352,45 @@ option {
 
   .learn-it {
     padding: 3.5em 1.5em;
+    text-align: left;
   }
 
   h3 {
     text-align: left;
   }
 
-  .learn-it {
-    text-align: left;
+  .figcaption-text {
+    bottom: 30%;
   }
 }
+
+@media only screen and (min-width: 50em) {
+
+  nav li {
+    padding: 0 2em;
+  }
+
+  .banner-medium {
+    display: none;
+  }
+
+  .banner-large {
+    display: block;
+  }
+
+  img.logo {
+    width: 80px;
+  }
+
+  .about-icon {
+    width: 250px;
+  }
+
+  .about-card p {
+    max-width: 400px;
+    min-width: 200px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+  }
 
 @media only screen and (min-width: 60em) {
