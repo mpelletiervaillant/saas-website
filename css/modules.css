@@ -663,7 +663,7 @@ input::-moz-focus-inner {
 
 [type="checkbox"],
 [type="radio"] {
-  opacity: 0;
+  opacity: 100;
   position: absolute;
   height: 1px;
   width: 1px;

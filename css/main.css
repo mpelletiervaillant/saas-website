@@ -186,7 +186,6 @@ p {
   transform: translateX(-50%);
 }
 
-
 footer {
   background-color: #0D3557;
 }
@@ -304,10 +303,22 @@ footer p {
 
 /*sign-up*/
 
+.logo-sign-up {
+  width: 135px;
+  margin: 0 auto;
+}
+
+.logo-sign-up:hover {
+  opacity: .5;
+  transition: opacity .35s;
+  cursor: pointer;
+}
+
 input,
 select,
 textarea,
-option {
+option,
+ {
   width: 100%;
   border: 1px solid #95989A;
 }
