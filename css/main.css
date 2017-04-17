@@ -298,6 +298,13 @@ footer p {
   background-color: #78BBC0;
 }
 
+/*pricing*/
+
+.personal-mobile {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 /*sign-up*/
 
 .logo-sign-up {
