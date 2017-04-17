@@ -419,3 +419,13 @@ option,
   }
 
 @media only screen and (min-width: 60em) {
+
+    .feat-card {
+      text-align: center;
+      padding: .5em;
+    }
+
+    .feat-icon {
+      max-width: 115px;
+      margin: 0 auto;
+  }
