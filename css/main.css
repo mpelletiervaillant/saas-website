@@ -213,6 +213,12 @@ footer p {
   text-align: center;
 }
 
+.btm-nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 .2em;
+}
+
 .sm-icon {
   width: 40px;
 }
@@ -391,6 +397,17 @@ option {
     min-width: 200px;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
+  }
+
+  .social-media li {
+    text-align: right;
+  }
+
+  .btm-nav a {
+    padding: 0 1em;
+  }
+
+
   }
 
 @media only screen and (min-width: 60em) {
