@@ -171,6 +171,10 @@ p {
   color: #0D3557;
 }
 
+.red {
+  color: #ED5943;
+}
+
 .figcaption-title {
   bottom: 40%;
   left: 50%;
@@ -303,7 +307,27 @@ footer p {
 .personal-mobile {
   max-width: 400px;
   margin: 0 auto;
+  background-color: #F7F4EF;
 }
+
+.personal-mobile td {
+  vertical-align: middle;
+}
+
+.pers-title {
+  background-color: #ED5943;
+}
+
+.personal-mobile th {
+  font-weight: 300;
+  padding: .5em .5em;
+}
+
+.pers-btn {
+  text-decoration: none;
+  border: 2px solid #ED5943;
+  border-radius: 40px;
+  padding: .3em 1.5em;
 
 /*sign-up*/
 
