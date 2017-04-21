@@ -244,7 +244,11 @@ footer p {
 }
 
 .prod-h1 {
-  bottom: 63%;
+  bottom: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 85%;
+  font-size:
 }
 
 .interface {
@@ -408,6 +412,10 @@ option,
     padding: 0 .5em;
   }
 
+  .prod-h1 {
+    bottom: 25%;
+  }
+
   .sign-up-btn {
     display: inline-block;
     background-color: #FA7662;
@@ -465,6 +473,11 @@ option,
     font-family: 'Roboto', sans-serif;
   }
 
+  .prod-h1 {
+    bottom: 40%;
+    font-size: 3rem;
+  }
+
   .social-media li {
     text-align: right;
   }
@@ -481,6 +494,7 @@ option,
     .feat-card {
       text-align: center;
       padding: .5em;
+      width: 215px;
     }
 
     .feat-icon {
