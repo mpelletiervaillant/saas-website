@@ -175,6 +175,10 @@ p {
   color: #ED5943;
 }
 
+.yellow {
+  color: #F3A11E;
+}
+
 .figcaption-title {
   bottom: 40%;
   left: 50%;
@@ -316,6 +320,7 @@ footer p {
 
 .pers-title {
   background-color: #ED5943;
+  border-bottom: none;
 }
 
 .personal-mobile th {
@@ -323,11 +328,33 @@ footer p {
   padding: .5em .5em;
 }
 
-.pers-btn {
+.table-btn {
   text-decoration: none;
-  border: 2px solid #ED5943;
   border-radius: 40px;
   padding: .3em 1.5em;
+}
+
+.pers-btn {
+  border: 2px solid #ED5943;
+}
+
+.class-title {
+  background-color: #F3A11E;
+  border-bottom: none;
+}
+
+.class-btn {
+  border: 2px solid #F3A11E;
+}
+
+.school-title {
+  background-color: #0D3557;
+  border-bottom: none;
+}
+
+.school-btn {
+  border: 2px solid #0D3557;
+}
 
 /*sign-up*/
 
