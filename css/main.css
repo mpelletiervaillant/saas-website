@@ -1,6 +1,6 @@
 .header-home {
   text-align: center;
-  background-color: #ED5943;
+  background-color: #ed5943;
 }
 
 img.logo {
@@ -50,8 +50,8 @@ nav a {
 }
 
 nav li {
-    border-top: 1px solid white;
-    padding: .3em;
+  border-top: 1px solid white;
+  padding: .3em;
 }
 
 nav li:hover {
@@ -77,9 +77,9 @@ nav li:hover a {
 }
 
 .banner-text {
-  bottom: 30%;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(-50%);
   font-weight: 500;
   line-height: 1.1;
   color: #fff;
@@ -91,30 +91,31 @@ nav li:hover a {
   line-height: 2.5rem;
 }
 
-h2 {
+.banner-text p {
+  line-height: 2.2rem;
   font-weight: normal;
   color: #fff;
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
 }
 
 .banner-btn {
-  bottom: 20%;
-  left: 50%;
-  transform: translateX(-50%);
   color: white;
   text-decoration: none;
   border: 2px solid white;
   border-radius: 40px;
-  padding: .5em .8em;
-  background-color: #ED5943;
+  padding: .8em 1em;
+  background-color: #ed5943;
+  font-weight: 400;
 }
 
 .banner-btn:hover {
   transition: background-color .35s, color .35s;
   cursor: pointer;
-  background-color: #C91A00;
+  background-color: #c91a00;
 }
 
-h3 {
+h2 {
   font-weight: 500;
 }
 
@@ -131,36 +132,43 @@ h3 {
   max-width: 300px;
   min-width: 200px;
   margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
-h4 {
+h3 {
   font-weight: 400;
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .learn-it {
-  background-color: #F7F4EF;
+  background-color: #f7f4ef;
 }
 
 .learn-it h2 {
-  color: #0D3557;
+  color: #0d3557;
 }
 
 .learn-btn {
-  color: #0D3557;
+  color: #0d3557;
   text-decoration: none;
-  border: 2px solid #0D3557;
+  border: 2px solid #0d3557;
   border-radius: 40px;
   padding: .5em 2em;
-  background-color: #F7F4EF;
+  background-color: #f7f4ef;
+}
+
+.learn-btn:hover {
+  transition: color .35s;
+  background-color: #f7f4ef;
+  color: #ed5943;
+  border-color: #ed5943;
 }
 
 .sign-up {
-  background-color: #78BBC0;
+  background-color: #78bbc0;
 }
 
 .white {
@@ -168,33 +176,33 @@ p {
 }
 
 .blue {
-  color: #0D3557;
+  color: #0d3557;
 }
 
 .red {
-  color: #ED5943;
+  color: #ed5943;
 }
 
 .yellow {
-  color: #F3A11E;
+  color: #f3a11e;
 }
 
 .video-text {
-  bottom: 40%;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
 
-  .video-title {
-  font-family: 'Oswald', sans-serif;
+.video-title {
+  font-family: Oswald, sans-serif;
 }
 
 .figcaption-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 footer {
-  background-color: #0D3557;
+  background-color: #0d3557;
 }
 
 .foot-logo {
@@ -208,7 +216,7 @@ figcaption {
 
 footer p {
   color: white;
-  font-family: "Oswald";
+  font-family: Oswald;
 }
 
 .social-media li {
@@ -230,13 +238,13 @@ footer p {
 }
 
 .copyright {
-  background-color: #ED5943;
+  background-color: #ed5943;
 }
 
 /* Product */
 
 .header-product {
-  background-color: #0D3557;
+  background-color: #0d3557;
 }
 
 .prod-h1 {
@@ -244,19 +252,18 @@ footer p {
   left: 50%;
   transform: translateX(-50%);
   width: 85%;
-  font-size:
 }
 
 .interface {
-  background-color: #F7F4EF;
+  background-color: #f7f4ef;
 }
 
 .compatibility {
-  background-color: #78BBC0;
+  background-color: #78bbc0;
 }
 
 .icons {
-  background-color: #F3A11E;
+  background-color: #f3a11e;
 }
 
 .cards {
@@ -268,58 +275,58 @@ footer p {
 }
 
 .feat-card {
-  border: 2px solid #F7F4EF;
+  border: 2px solid #f7f4ef;
   border-radius: 5px;
-  background-color:#F7F4EF;
+  background-color: #f7f4ef;
   margin: .5em auto;
   width: 320px;
 }
 
 .prices {
-  background-color: #F7F4EF;
+  background-color: #f7f4ef;
 }
 
 .prices-btn {
-  color: #0D3557;
+  color: #0d3557;
   text-decoration: none;
-  border: 2px solid #0D3557;
+  border: 2px solid #0d3557;
   border-radius: 40px;
   padding: .5em 2em;
-  background-color: #F7F4EF;
+  background-color: #f7f4ef;
 }
 
-/*learn*/
+/* learn */
 
 .header-learn {
-  background-color: #78BBC0;
+  background-color: #78bbc0;
 }
 
-.learn-btn {
+.view-btn {
   background-color: white;
 }
 
-.learn-btn:hover {
-  color: #4A79A2;
-  border-color: #4A79A2;
+.view-btn:hover {
+  color: #4a79a2;
+  border-color: #4a79a2;
   background-color: white;
   opacity: .5;
   transition: opacity .35s;
 }
 
 .learn-intro {
-  background-color: #ED5943;
+  background-color: #ed5943;
 }
 
 .learn-intro-two {
-  background-color: #F3A11E;
+  background-color: #f3a11e;
 }
 
 .workshops {
-  background-color: #78BBC0;
+  background-color: #78bbc0;
 }
 
 .workshop-btn {
-  background-color: #78BBC0;
+  background-color: #78bbc0;
   border: 2px solid white;
   border-radius: 40px;
   padding: .5em 2em;
@@ -328,20 +335,20 @@ footer p {
 .workshop-btn:hover {
   opacity: .5;
   transition: opacity .35s;
-  background-color: #78BBC0;
+  background-color: #78bbc0;
   border-color: white;
 }
 
-/*pricing*/
+/* pricing */
 
 .header-pricing {
-  background-color: #F3A11E;
+  background-color: #f3a11e;
 }
 
 .personal-mobile {
   max-width: 400px;
   margin: 0 auto;
-  background-color: #F7F4EF;
+  background-color: #f7f4ef;
 }
 
 .personal-mobile td {
@@ -349,7 +356,7 @@ footer p {
 }
 
 .pers-title {
-  background-color: #ED5943;
+  background-color: #ed5943;
   border-bottom: none;
 }
 
@@ -359,7 +366,7 @@ footer p {
 
 .personal-mobile th {
   font-weight: 300;
-  padding: .5em .5em;
+  padding: .5em;
 }
 
 .table-btn {
@@ -369,50 +376,49 @@ footer p {
 }
 
 .pers-btn {
-  border: 2px solid #ED5943;
+  border: 2px solid #ed5943;
 }
 
 .class-title {
-  background-color: #F3A11E;
+  background-color: #f3a11e;
   border-bottom: none;
 }
 
 .class-btn {
-  border: 2px solid #F3A11E;
+  border: 2px solid #f3a11e;
 }
 
 .school-title {
-  background-color: #0D3557;
+  background-color: #0d3557;
   border-bottom: none;
 }
 
 .school-btn {
-  border: 2px solid #0D3557;
+  border: 2px solid #0d3557;
 }
 
-
 .win-subscription {
-  background-color: #ED5943;
+  background-color: #ed5943;
 }
 
 .sub-btn {
   border: 2px solid #fff;
   border-radius: 40px;
   padding: .5em 2em;
-  background-color: #ED5943;
+  background-color: #ed5943;
   text-decoration: none;
 }
 
 .sub-btn:hover {
-  border-color: #FA7662;
-  color: #FA7662;
+  border-color: #fa7662;
+  color: #fa7662;
 }
 
 .storage {
-  background-color: #F7F4EF;
+  background-color: #f7f4ef;
 }
 
-/*sign-up*/
+/* sign-up */
 
 .logo-sign-up {
   width: 135px;
@@ -428,10 +434,9 @@ footer p {
 input,
 select,
 textarea,
-option,
- {
+option {
   width: 100%;
-  border: 1px solid #95989A;
+  border: 1px solid #95989a;
 }
 
 @media only screen and (min-width: 27em) {
@@ -443,12 +448,14 @@ option,
   .banner-medium {
     display: block;
   }
+}
 
 @media only screen and (min-width: 38em) {
 
   nav {
     text-align: left;
   }
+
   ul.nav {
     display: inline-block;
   }
@@ -459,7 +466,7 @@ option,
 
   nav li {
     display: inline-block;
-    border: 0px;
+    border: 0;
     padding: 0 .5em;
   }
 
@@ -469,26 +476,25 @@ option,
 
   .sign-up-btn {
     display: inline-block;
-    background-color: #FA7662;
+    background-color: #fa7662;
     border-radius: 40px;
-    color: white;
-    border: 2px solid #FA7662;
+    color: #fff;
+    border: 2px solid #fa7662;
     padding: .5em 2.5em;
   }
 
   .sign-btn-learn {
-    background-color: #8DD3D8;
-    border-color: #8DD3D8;
+    background-color: #8dd3d8;
+    border-color: #8dd3d8;
   }
 
   .sign-btn-learn:hover {
     opacity: .5;
-    
   }
 
   .sign-up-btn:hover {
-    background-color: #C94F3D;
-    border-color: #C94F3D;
+    background-color: #c94f3d;
+    border-color: #c94f3d;
   }
 
   .learn-it {
@@ -496,7 +502,7 @@ option,
     text-align: left;
   }
 
-  h3 {
+  h2 {
     text-align: left;
   }
 
@@ -531,7 +537,7 @@ option,
     max-width: 400px;
     min-width: 200px;
     margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
   }
 
   .prod-h1 {
@@ -546,7 +552,7 @@ option,
   .personal-desktop {
     display: table;
     width: 100%;
-    background-color: #F7F4EF;
+    background-color: #f7f4ef;
   }
 
   .personal-desktop .empty {
@@ -573,15 +579,15 @@ option,
 
 @media only screen and (min-width: 60em) {
 
-    .feat-card {
-      text-align: center;
-      padding: .5em;
-      width: 215px;
-    }
+  .feat-card {
+    text-align: center;
+    padding: .5em;
+    width: 215px;
+  }
 
-    .feat-icon {
-      max-width: 115px;
-      margin: 0 auto;
+  .feat-icon {
+    max-width: 115px;
+    margin: 0 auto;
   }
 
   .learn-btn {
@@ -642,5 +648,4 @@ option,
     max-width: 1500px;
     margin: 2em auto;
   }
-
 }

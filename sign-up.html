@@ -2,86 +2,115 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Cinema Stitch - Learn</title>
+  <title>Cinema Stitch - Sign Up</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
 
-  <header class="">
+  <header class="header-learn grid grid-middle">
+
+    <div class="unit xs-1 m-1-4">
+      <a href="index.html"><img class="img-flex logo island-1-2" src="images/logo-cinema-stitch.svg" alt=""></a>
+    </div>
+
+    <nav class="unit xs-1 m-1-2">
+      <input type="checkbox" class="nav-check" id="nav-check">
+      <label class="nav-label" for="nav-check">
+        <img src="images/drop-down.svg" alt="Open Navigation">
+      </label>
+
+      <ul class="nav list-group">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="product.html">PRODUCT</a></li>
+        <li><a href="portfolio.html">LEARN</a></li>
+        <li><a href="#">PRICING</a></li>
+      </ul>
+    </nav>
+
+    <div class="unit m-1-4">
+      <a class="btn sign-up-btn sign-btn-learn" href="#">SIGN UP</a>
+    </div>
+
     <div class="">
       <a href="index.html"><img class="img-flex logo-sign-up island-1-2" src="images/logo-colour.svg" alt=""></a>
     </div>
 
-    <p class="center-text gutter max-length">Please select the plan you wish to purchase and fill out the required information. A confirmation e-mail with the next steps will be sent to you.</p>
+    <p class="center-text gutter max-length tera">Please select the plan you wish to purchase and fill out the required information. A confirmation e-mail with the next steps will be sent to you.</p>
   </header>
+  <main>
+    <h1 class="pad-t-1-4">SIGN UP TODAY</h1>
+    <h2>Select the plan you wish to purchase and get started!</h2>
 
-  <section class="sign-up-form">
-    <form class="push-0 gutter grid grid-middle" method="POST" action="https://formspree.io/pell0227@alqonquinlive.com">
+    <section class="sign-up-form">
+      <form class="push-0 gutter grid grid-middle" method="POST" action="https://formspree.io/pell0227@alqonquinlive.com">
 
-      <div class="max-length">
-      <div class="push unit xs-1 m-1-2 l-1-2 gutter">
-        <label class="push-1-4" for="name">NAME</label>
-        <input class="" id="name" name="name">
-      </div>
+        <div class="max-length">
+          <div class="push unit xs-1 m-1-2 l-1-2 gutter">
+            <label class="push-1-4" for="name">NAME</label>
+            <input class="" id="name" name="name">
+          </div>
 
-      <div class="push unit xs-1 m-1-2 l-1-2 gutter">
-        <label class="push-1-4 " for="occupation">OCCUPATION</label>
-        <input id="occupation" name="occupation">
-      </div>
+          <div class="push unit xs-1 m-1-2 l-1-2 gutter">
+            <label class="push-1-4 " for="occupation">OCCUPATION</label>
+            <input id="occupation" name="occupation">
+          </div>
 
-      <div class="push unit xs-1 m-1-2 l-1-2 gutter">
-        <label class="push-1-4" for="school">SCHOOL</label>
-        <input id="school" name="school gutter-1-4">
-      </div>
+          <div class="push unit xs-1 m-1-2 l-1-2 gutter">
+            <label class="push-1-4" for="school">SCHOOL</label>
+            <input id="school" name="school gutter-1-4">
+          </div>
 
-      <div class="push unit xs-1 m-1-2 l-1-2 gutter">
-        <label class="push-1-4" for="country">COUNTRY</label>
-        <input id="country" name="country">
-      </div>
+          <div class="push unit xs-1 m-1-2 l-1-2 gutter">
+            <label class="push-1-4" for="country">COUNTRY</label>
+            <input id="country" name="country">
+          </div>
 
-      <div class="push unit xs-1 m-1-2 l-1-2 gutter">
-        <label class="push-1-4" for="e-mail">E-MAIL</label>
-        <input id="e-mail" type="e-mail" name="e-mail">
-      </div>
+          <div class="push unit xs-1 m-1-2 l-1-2 gutter">
+            <label class="push-1-4" for="e-mail">E-MAIL</label>
+            <input id="e-mail" type="email" name="e-mail">
+          </div>
 
-      <div class="push unit xs-1 m-1-2 l-1-2 gutter">
-        <label class="push-1-4" for="e-mail">REPEAT E-MAIL</label>
-        <input id="e-mail" type="e-mail" name="e-mail">
-      </div>
+          <div class="push unit xs-1 m-1-2 l-1-2 gutter">
+            <label class="push-1-4" for="e-mail">REPEAT E-MAIL</label>
+            <input id="e-mail-repeat" type="email" name="e-mail">
+          </div>
 
-      <div class="push unit xs-1 m-1-2 l-1-2 gutter">
-        <label class="push-1-4" for="username">USERNAME</label>
-        <input id="username" name="username">
-      </div>
+          <div class="push unit xs-1 m-1-2 l-1-2 gutter">
+            <label class="push-1-4" for="username">USERNAME</label>
+            <input id="username" name="username">
+          </div>
 
-      <div class="push unit xs-1 m-1-2 l-1-2 gutter">
-        <label class="push-1-4" for="e-mail">PASSWORD</label>
-        <input id="password" type="password" name="password">
-      </div>
+          <div class="push unit xs-1 m-1-2 l-1-2 gutter">
+            <label class="push-1-4" for="e-mail">PASSWORD</label>
+            <input id="password" type="password" name="password">
+          </div>
 
-      <div class="push-1-4 unit xs-1 m-1 l-1 gutter">
-        <input id="terms" type="checkbox">
-        <label class="push-1-4" for="terms">I agree to the Terms & Conditions</label>
-      </div>
+          <div class="push-1-4 unit xs-1 m-1 l-1 gutter">
+            <input id="terms" type="checkbox">
+            <label class="push-1-4" for="terms">I agree to the Terms & Conditions</label>
+          </div>
 
-      <div class="push-1-4 unit xs-1 m-1 l-1 gutter">
+          <div class="push-1-4 unit xs-1 m-1 l-1 gutter">
             <input id="speak" type="checkbox">
             <label for="speak">Speaking to groups</label>
-      </div>
+          </div>
 
-      <div class="center-text gutter-1-4 unit xs-1 s-1 m-1 l-1">
-        <button class="btn btn-light" type="submit">START</button>
-      </div>
+          <div class="center-text gutter-1-4 unit xs-1 s-1 m-1 l-1">
+            <button class="btn btn-light" type="submit">START</button>
+          </div>
+        </div>
 
-    </form>
+      </form>
 
-
-  </section>
+    </section>
+  </main>
+  <footer>
+  </footer>
 </body>
 </html>
