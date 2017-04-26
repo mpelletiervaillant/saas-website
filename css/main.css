@@ -110,9 +110,8 @@ nav li:hover a {
 }
 
 .banner-btn:hover {
-  transition: background-color .35s, color .35s;
-  cursor: pointer;
-  background-color: #c91a00;
+  background-color: #ed5943;
+  color: black;
 }
 
 h2 {
@@ -248,9 +247,9 @@ footer p {
 }
 
 .prod-h1 {
-  bottom: 10%;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(-50%);
   width: 85%;
 }
 
@@ -297,20 +296,28 @@ footer p {
 
 /* learn */
 
+.students,
+.teachers {
+  background-color: #f7f4ef;
+}
+
 .header-learn {
   background-color: #78bbc0;
 }
 
 .view-btn {
-  background-color: white;
+  color: #0d3557;
+  text-decoration: none;
+  border: 2px solid #0d3557;
+  border-radius: 40px;
+  padding: .5em 2em;
+  background-color: #f7f4ef;
 }
 
 .view-btn:hover {
-  color: #4a79a2;
-  border-color: #4a79a2;
+  color: #ed5943;
+  border-color: #ed5943;
   background-color: white;
-  opacity: .5;
-  transition: opacity .35s;
 }
 
 .learn-intro {
@@ -333,10 +340,9 @@ footer p {
 }
 
 .workshop-btn:hover {
-  opacity: .5;
-  transition: opacity .35s;
+  border-color: #0d3557;
+  color: #0d3557;
   background-color: #78bbc0;
-  border-color: white;
 }
 
 /* pricing */
@@ -410,8 +416,8 @@ footer p {
 }
 
 .sub-btn:hover {
-  border-color: #fa7662;
-  color: #fa7662;
+  border-color: #0d3557;
+  color: #0d3557;
 }
 
 .storage {
@@ -437,6 +443,21 @@ textarea,
 option {
   width: 100%;
   border: 1px solid #95989a;
+}
+
+.btn-submit {
+  border: 2px solid #ed5943;
+  border-radius: 40px;
+  padding: .5em 2em;
+  background-color: #fff;
+  text-decoration: none;
+  color: #ed5943;
+}
+
+.btn-submit:hover {
+  color: #0d3557;
+  border-color: #0d3557;
+  background-color: white;
 }
 
 @media only screen and (min-width: 27em) {
@@ -470,10 +491,6 @@ option {
     padding: 0 .5em;
   }
 
-  .prod-h1 {
-    bottom: 25%;
-  }
-
   .sign-up-btn {
     display: inline-block;
     background-color: #fa7662;
@@ -481,6 +498,25 @@ option {
     color: #fff;
     border: 2px solid #fa7662;
     padding: .5em 2.5em;
+  }
+
+  .sign-up-btn-yellow {
+    display: inline-block;
+    background-color: #db9422;
+    border-radius: 40px;
+    color: #fff;
+    border: 2px solid #db9422;
+    padding: .5em 2.5em;
+  }
+
+  .sign-up-btn-yellow:hover {
+    background-color: #ac7825;
+    border-color: #ac7825;
+  }
+
+  .sign-up-btn-blue {
+    background-color: #265780;
+    border-color: #265780;
   }
 
   .sign-btn-learn {
@@ -495,6 +531,11 @@ option {
   .sign-up-btn:hover {
     background-color: #c94f3d;
     border-color: #c94f3d;
+  }
+
+  .sign-up-btn-blue:hover {
+    background-color: #10293e;
+    border-color: #10293e;
   }
 
   .learn-it {
@@ -541,7 +582,6 @@ option {
   }
 
   .prod-h1 {
-    bottom: 40%;
     font-size: 3rem;
   }
 
