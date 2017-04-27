@@ -160,7 +160,6 @@ p {
 }
 
 .learn-btn:hover {
-  transition: color .35s;
   background-color: #f7f4ef;
   color: #ed5943;
   border-color: #ed5943;
@@ -209,6 +208,12 @@ footer {
   margin: 0 auto;
 }
 
+.foot-logo:hover {
+  opacity: .5;
+  transition: opacity .35s;
+  cursor: pointer;
+}
+
 figcaption {
   color: white;
 }
@@ -234,6 +239,11 @@ footer p {
 
 .sm-icon {
   width: 40px;
+}
+
+.sm-icon:hover {
+  opacity: .5;
+  transition: opacity .35s;
 }
 
 .copyright {
@@ -547,7 +557,7 @@ option {
   }
 
   .learn-it {
-    padding: 3.5em 1.5em;
+
     text-align: left;
   }
 
@@ -694,6 +704,6 @@ option {
 
   .my-gutter {
     max-width: 1500px;
-    margin: 2em auto;
+    margin: 0 auto;
   }
 }
