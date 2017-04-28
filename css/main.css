@@ -277,6 +277,7 @@ footer p {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   width: 85%;
+  font-size: 3rem;
 }
 
 .interface {
