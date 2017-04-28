@@ -58,7 +58,6 @@ nav li:hover {
   cursor: pointer;
   background-color: white;
   transition: color .35s;
-  border-radius: 40px;
 }
 
 nav li:hover a {
@@ -66,6 +65,10 @@ nav li:hover a {
 }
 
 .sign-up-btn {
+  display: none;
+}
+
+.sign-up-btn-bluee {
   display: none;
 }
 
