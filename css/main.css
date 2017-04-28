@@ -58,6 +58,7 @@ nav li:hover {
   cursor: pointer;
   background-color: white;
   transition: color .35s;
+  border-radius: 40px;
 }
 
 nav li:hover a {
@@ -188,6 +189,19 @@ p {
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+}
+
+.watch-btn {
+  border: 2px solid #fff;
+  border-radius: 40px;
+  color: #fff;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+
+.watch-btn:hover {
+  color: #f3a11e;
+  border-color: #f3a11e;
 }
 
 .video-title {
